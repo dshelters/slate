@@ -108,7 +108,6 @@ This sounds weird, but it can be pretty useful if you want to render additional 
 
 ```js
 function renderEditor(props, editor, next) {
-  const { editor } = props
   const wordCount = countWords(editor.value.text)
   const children = next()
   return (
